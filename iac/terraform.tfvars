@@ -16,10 +16,10 @@ private_data_subnet_az2_cidr = "10.0.5.0/24"
 secrets_manager_secret_name = "rentzone-app-dev-secrets"
 
 # rds variables
-multi_az_deployment          = "false"
-database_instance_identifier = "dev-rds-db"
+multi_az_deployment          = false
+database_instance_identifier = "app-db"
 database_instance_class      = "db.t3.micro"
-publicly_accessible          = "false"
+publicly_accessible          = false
 
 # acm variables
 domain_name       = "adebisianike.com"
