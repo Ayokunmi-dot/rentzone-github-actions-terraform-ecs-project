@@ -399,5 +399,4 @@ jobs:
           echo "NEW_TD_REVISION=$NEW_TD_REVISION" >> $GITHUB_ENV
 
     outputs:
-      new_td_revision: ${{ NEW_TD_REVISION }}
-      
+      new_td_revision: ${{ env.NEW_TD_REVISION }}
